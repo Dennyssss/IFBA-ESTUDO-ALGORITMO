@@ -1,0 +1,22 @@
+//Dennys estudo
+programa
+{
+	
+	funcao inicio()
+	{
+	     escreva("descubra o valor do seu terreno ")
+		real valormetro, lateral, frente
+		escreva("\ndigite o tamanho do lateral do terreno ")
+		leia(lateral)
+		escreva("digite o tamanho da frente do terreno ")
+		leia(frente)
+		escreva("valor do metro quadrado ")
+		leia(valormetro)
+
+          escreva("\n o valor do terreno é de R$ " ,  valormetro * (lateral * frente))
+
+	
+
+		
+	}
+}
