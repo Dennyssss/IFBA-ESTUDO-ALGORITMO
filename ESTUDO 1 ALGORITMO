@@ -1,0 +1,23 @@
+//Dennys estudo
+
+programa
+{
+	
+	funcao inicio()
+	{
+		real dinheiro = 0.10 , debito = 0.07 , credito = 3 , frete, compra , total 
+		escreva("valor total da compra ")
+		leia(compra)
+		escreva("valor do frete ")
+		leia(frete)
+          total = (compra + frete) - ((compra + frete) * dinheiro)
+	    escreva("\nvalor em dinheiro ", total)
+	     total = (compra + frete) - ((compra + frete) * debito)
+	    escreva("\nvalor em debito ", total)
+	     total = ((compra + frete) / credito)
+         escreva("\nvalor em credito 3x no cartao ", total)
+	    
+	}
+
+		
+}
