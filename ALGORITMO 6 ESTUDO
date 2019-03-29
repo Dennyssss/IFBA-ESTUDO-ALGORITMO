@@ -1,0 +1,20 @@
+//Dennys estudo
+programa
+{
+	
+	funcao inicio()
+	{
+		real salario, comissaovenda
+		escreva("qual seu salario fixo? ")
+		leia(salario)
+		escreva("qual sua comissao de vendas? ")
+		leia(comissaovenda)
+
+		se (comissaovenda <= 1500.0){
+          escreva(" O seu seu salário é de ", salario + (0.03 * comissaovenda))
+		}
+		senao 
+		escreva(" O seu seu salário é de ", salario + (0.08 * comissaovenda))
+		}
+		
+	}
