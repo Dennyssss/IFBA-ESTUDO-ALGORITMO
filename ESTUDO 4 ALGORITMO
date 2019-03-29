@@ -1,0 +1,19 @@
+//Dennys estudo
+
+programa
+{
+	inclua biblioteca Matematica
+ -->	math
+	
+	funcao inicio()
+	{
+		escreva("\nDescubra o seu IMC")
+		real altura, peso
+		escreva("\ndiz ai qual sua altura? ")
+		leia(altura)
+		escreva("e o seu peso? ")
+		leia(peso)
+
+		escreva("seu IMC é de ", peso / math.potencia(altura, 2.0)) 
+	}
+}
