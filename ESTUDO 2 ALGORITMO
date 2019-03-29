@@ -1,0 +1,17 @@
+//Dennys estudo
+
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro numero1 , numero2 
+		escreva("por favor digite o primeiro numero ")
+		leia(numero1)
+
+		escreva("por favor digite o segundo numero ")
+		leia(numero2)
+
+		escreva(" o valor total do numero ", numero1 ," mais o numero ", numero2 ," é de ", numero1 + numero2)
+	}
+}
