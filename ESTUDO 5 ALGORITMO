@@ -7,10 +7,14 @@ programa
 		real boleto, parcelado = 0.24 , minimo
 		escreva("por favor indique o valor a pagar ")
 		leia(boleto)
+		escreva("\n(1)opcao pagamento conta corrente")
 		escreva("\nO boleto é o valor de: ", boleto)
+		escreva("\n(2)opcao pagamendo parcelado")
 		escreva("\nO valor do boleto parcelado 2x é de: ", (boleto / 2) + (boleto * 0.06))
 		escreva("\nO valor do boleto parcelado 3x é de: ", (boleto / 3) + (boleto * 0.04))
 		escreva("\nO valor do boleto parcelado 4x é de: ", (boleto / 4) + (boleto * 0.03))
+		escreva("\n(3)opcao pagamento minimo")
 		escreva("\nPagamento minimo (25%) valor de: ", (boleto / 4) ," Faltara apenas ",(boleto * 0.75)+(boleto * 0.75) * 0.15) 
 	}
 }
+
