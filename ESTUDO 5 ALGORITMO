@@ -1,0 +1,16 @@
+//Dennys estudo
+programa
+{
+	
+	funcao inicio()
+	{
+		real boleto, parcelado = 0.24 , minimo
+		escreva("por favor indique o valor a pagar ")
+		leia(boleto)
+		escreva("\nO boleto é o valor de: ", boleto)
+		escreva("\nO valor do boleto parcelado 2x é de: ", (boleto / 2) + (boleto * 0.06))
+		escreva("\nO valor do boleto parcelado 3x é de: ", (boleto / 3) + (boleto * 0.04))
+		escreva("\nO valor do boleto parcelado 4x é de: ", (boleto / 4) + (boleto * 0.03))
+		escreva("\nPagamento minimo (25%) valor de: ", (boleto / 4) ," Faltara apenas ",(boleto * 0.75)+(boleto * 0.75) * 0.15) 
+	}
+}
