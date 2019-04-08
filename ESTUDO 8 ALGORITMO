@@ -1,0 +1,15 @@
+//Dennys estudo
+programa
+{
+	
+	funcao inicio()
+	{
+		real salario, filhos
+		escreva("qual seu salário? ")
+		leia(salario)
+		escreva("quantos filhos você tem? ")
+		leia(filhos)
+
+		escreva("seu salário é de: ", salario + ((salario * 0.10) * filhos))
+	}
+}
