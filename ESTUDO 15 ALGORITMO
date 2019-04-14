@@ -1,0 +1,20 @@
+//Dennys estudo
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro hotdog, drink
+	escreva("quantos cachorros quentes? ")
+	leia(hotdog)
+	escreva("quantos de refrigerante? ")
+  leia(drink)
+     
+	se(hotdog <=2){
+	escreva(" o total é: ",hotdog * 4 + (drink * 2))
+	}
+	se(hotdog >2){
+	escreva(" o total é: ",(hotdog * 4) + (drink * 2) - (hotdog / 3))
+	}
+	}
+}
