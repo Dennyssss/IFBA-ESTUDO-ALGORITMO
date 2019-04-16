@@ -14,8 +14,7 @@ programa
 	escreva(" o total é: ",hotdog * 4 + (drink * 2))
 	}
 	se(hotdog >2){
-	escreva(" o total é: ",(hotdog * 4) + (drink * 2) - (hotdog / 3) - (hotdog / 3) + (1 / drink))
-	
+	escreva(" o total é: ",(hotdog * 4 + drink * 2) - (hotdog / 3) - (hotdog / 3 + (drink / hotdog * 2)))
 	}
 	}
 }
